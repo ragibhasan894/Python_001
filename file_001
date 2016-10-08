@@ -1,0 +1,13 @@
+# This is my first python project in Github
+# This code will about list and dictionary data structure
+
+my_list = []
+
+my_dict = {'2914' = 'Ragib', '2932' = 'Nafis', '2934' = 'Ashfaq', '2944' = 'Habib'}
+
+for i in my_dict:
+  if my_dict[i] == 'Ragib':
+    my_list.append(i)
+    
+    
+print my_list #This will print my ID: 2914
